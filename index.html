@@ -34,13 +34,14 @@
       margin-top: 20px;
     }
 
-    /* Gambar utama (QRIS) */
     .main-img {
       width: 220px;
-      border-radius: 14px;
+      height: 220px;
+      border-radius: 12px;
       margin: 10px auto;
       box-shadow: 0 0 20px #00ff66;
       display: block;
+      object-fit: contain;
     }
 
     .glow-box {
@@ -125,29 +126,21 @@
   <h1>JOSS PAYMENT</h1>
 
   <div class="container">
-    <!-- Gambar QRIS -->
-    <img src="https://files.catbox.moe/jlzh3s.jpeg" alt="QRIS" class="main-img" />
+    <img src="https://files.catbox.moe/ahq2qj.jpg" alt="QRIS JOSS OFFICIAL" class="main-img" />
 
-    <!-- QRIS klik -->
-    <div class="glow-box" onclick="window.open('https://files.catbox.moe/jlzh3s.jpeg','_blank')">📷 QRIS [ KLIK UNTUK SCAN ]</div>
-
-    <!-- Nomor DANA -->
     <div class="glow-box">
       DANA: <span id="dana">082268135038</span>
       <button class="copy-btn" onclick="copyText('082268135038')">Copy</button>
     </div>
 
-    <!-- Harga -->
-    <div class="glow-box">PT Rp100.000</div>
+    <div class="glow-box">💰 PT Rp100.000</div>
 
     <p><b>MENYEDIAKAN:</b><br>SC BUG, SC ZENO, NIKA, EVIL, JASA BUAT WEB DLL</p>
 
-    <!-- Tombol WhatsApp -->
     <button class="wa-btn" onclick="window.open('https://wa.me/6282268135038?text=Halo+saya+tertarik+dengan+produk+SC+Anda','_blank')">
       💬 Hubungi via WhatsApp
     </button>
 
-    <!-- Telegram -->
     <div class="glow-box" onclick="window.open('https://t.me/JOSSOFFICIAL','_blank')">
       📱 Telegram: @JOSSOFFICIAL
     </div>
